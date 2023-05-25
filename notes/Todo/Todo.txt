@@ -1,6 +1,8 @@
 1. Player
 	1.1 Import player sprite - done
 	1.2 Create player object - done
+	1.3 Move player with WASD in step - done
+	1.4 Improving moving code - done
 	
 2. Adjust room dimensions, view and viewport
 	2.1 Create viewport camera - done
