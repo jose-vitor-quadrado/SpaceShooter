@@ -19,5 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_player_shot","order":1,"path":"objects/obj_player_shot/obj_player_shot.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
+    {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
+    {"name":"spr_enemy_1","order":2,"path":"sprites/spr_enemy_1/spr_enemy_1.yy",},
   ],
 }
