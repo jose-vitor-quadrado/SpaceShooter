@@ -16,8 +16,20 @@
 	3.5 Give effect to shot - done
 		3.5.1 Make the shot start big and after a while become small - done
 	3.6 Destroy object shot after exit screen - done
+	3.7 Use a function to shot - done
 	
 4. Create first enemy
 	4.1 Import enemy sprite - done
 	4.2 Create enemy object - done
 	4.3 Make the enemy go down - done
+
+5. Make enemy 1 shoot
+	5.1 Import enemy shot sprite - done
+	5.2 Create enemy shot object - done
+	5.3 Make the enemy shot go down - done
+	5.4 Make the enemy shoting - done
+	5.5 Create shot effect - done
+	5.6 Use a function to shot - done
+	
+6. Make the player shot hit the enemy
+	6.1 Destroy if hit an enemy - done

@@ -15,11 +15,15 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
+    {"name":"Enemies","order":5,"path":"folders/Sprites/Enemies.yy",},
+    {"name":"Player","order":4,"path":"folders/Objects/Player.yy",},
+    {"name":"Enemies","order":5,"path":"folders/Objects/Enemies.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_player_shot","order":1,"path":"objects/obj_player_shot/obj_player_shot.yy",},
+    {"name":"obj_enemy_1_shot","order":1,"path":"objects/obj_enemy_1_shot/obj_enemy_1_shot.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
-    {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
-    {"name":"spr_enemy_1","order":2,"path":"sprites/spr_enemy_1/spr_enemy_1.yy",},
+    {"name":"spr_enemy_1_shot","order":1,"path":"sprites/spr_enemy_1_shot/spr_enemy_1_shot.yy",},
   ],
 }
