@@ -1,3 +1,7 @@
 1. Player
 	1.1 Import player sprite - done
 	1.2 Create player object - done
+	
+2. Adjust room dimensions, view and viewport
+	2.1 Create viewport camera - done
+	2.2 Adjust dimensions for view to be large and viewport to be smaller - done
