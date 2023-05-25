@@ -7,3 +7,12 @@
 2. Adjust room dimensions, view and viewport
 	2.1 Create viewport camera - done
 	2.2 Adjust dimensions for view to be large and viewport to be smaller - done
+	
+3. Shoot
+	3.1 Import shot sprites - done
+	3.2 Create shot object - done
+	3.3 Move shot up - done
+	3.4 Make the player shoot by pressing space - done
+	3.5 Give effect to shot - done
+		3.5.1 Make the shot start big and after a while become small - done
+	3.6 Destroy object shot after exit screen - done
