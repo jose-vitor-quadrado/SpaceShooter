@@ -33,3 +33,41 @@
 	
 6. Make the player shot hit the enemy
 	6.1 Destroy if hit an enemy - done
+	6.2 Create player shot impact - done
+	6.3 Make shot impact disappear in the end of animation - done
+	6.4 Make shot do not create impact when leaves the room - done
+	
+7. Make enemy shot hit player
+	7.1 Destroy if hit the player - done
+	7.2 Destroy enemy shot if leave the room - done
+	
+8. Destroy enemy if he get shot by player
+	8.1 Make the player shot destroy the enemy that colides with it - done
+	8.2 Make the enemy impact - done
+		8.2.1 Create impact sprite - done
+		8.2.2 Create impact object - done
+		8.2.3 Make the enemy instances impact when destroyed - done
+		8.2.4 Make the impact destroy when animation ends - done
+		
+9. Small adjusts 1
+	9.1 Destroy enemy when leaves the screen - done
+	9.2 Improving background - done
+	9.3 Improving shot - done
+		9.3.1 Create effect sprite - done
+		9.3.2 Create draw event - done
+		9.3.3 Draw self - done
+		9.3.4 Draw effect - done
+		9.3.5 Change how gpu process image blend - done
+		9.3.6 Create var colors to change the shot color - done
+		9.3.7 Use lerp for decrease the size - done
+	9.4 Improving explosions - done
+		9.4.1 Create draw event - done
+		9.4.2 Draw self - done
+		9.4.3 Draw self bigger - done 
+		9.4.4 Change how gpu blend colors - done
+		9.4.5 Create colors var - done
+	
+10. Create game background
+	10.1 Create bg sprite - done
+	10.2 Place background in screen - done
+	10.3 Create movement on background - done
