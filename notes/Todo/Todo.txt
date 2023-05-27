@@ -71,3 +71,29 @@
 	10.1 Create bg sprite - done
 	10.2 Place background in screen - done
 	10.3 Create movement on background - done
+	
+11. Create the second enemy
+	11.1 Import sprite - done
+	11.2 Create object - done
+	11.3 Make inherit behaviors from enemy 1 - done
+	11.4 Make him change direction after reaching close(+||-) to middle of the room - 
+		11.4.1 Checking room side - done
+			11.4.1.1 - Checking if it is on right side - done
+			11.4.1.2 - Checking if it is on left side - done
+	11.5 Make him change direction after reaching 1/3 of screen - done
+	11.6 Make shure it changes direction only once - done
+	11.7 Making enemy create your shot - done
+		11.7.1 Create function shoting for enemy 2 - done
+	
+12 Creating second shot of the enemy
+	12.1 Import sprite - done
+	12.2 Create object - done
+	12.3 Inherit from enemy 1 shot - done
+	12.4 Start by going towards the player - done
+	12.5 Point to player direction - done
+		12.5.1 Sum 90 degres - done
+	12.6 Move if player exists - done
+	
+13 Procedural creation of enemies
+
+14 Creating controller object
