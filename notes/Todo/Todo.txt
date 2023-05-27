@@ -85,7 +85,7 @@
 	11.7 Making enemy create your shot - done
 		11.7.1 Create function shoting for enemy 2 - done
 	
-12 Creating second shot of the enemy
+12. Creating second shot of the enemy
 	12.1 Import sprite - done
 	12.2 Create object - done
 	12.3 Inherit from enemy 1 shot - done
@@ -94,6 +94,16 @@
 		12.5.1 Sum 90 degres - done
 	12.6 Move if player exists - done
 	
-13 Procedural creation of enemies
+13. Procedural creation of enemies
+	13.1 Make controller object create enemies from time to time - 
+		13.1.1 Make x and y position be randomized - done
 
-14 Creating controller object
+14. Creating controller object
+	14.1 Earn score when player destroy an enemy - 
+	
+15. Creating score system
+	15.1 Init score var - done
+	15.2 Earn score when enemies are destroyed - done
+	15.3 Run earn score method if instance exists - done
+	15.4 Each enemy give a different amount of score - done
+	15.5 Create enemies var that stores the amount of score each enemy give - done

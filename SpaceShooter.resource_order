@@ -37,6 +37,7 @@
     {"name":"obj_enemy_2_shot","order":3,"path":"objects/obj_enemy_2_shot/obj_enemy_2_shot.yy",},
     {"name":"spr_background_extra_2","order":4,"path":"sprites/spr_background_extra_2/spr_background_extra_2.yy",},
     {"name":"spr_enemy_1_shot","order":1,"path":"sprites/spr_enemy_1_shot/spr_enemy_1_shot.yy",},
+    {"name":"obj_controller","order":7,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_shot_effect_2","order":6,"path":"sprites/spr_shot_effect_2/spr_shot_effect_2.yy",},
   ],
 }

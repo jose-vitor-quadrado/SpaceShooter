@@ -1,5 +1,7 @@
 event_inherited();
 
+score_amount = 20;
+
 can_move_to_side = true;
 
 shoting = function() 

@@ -1,5 +1,7 @@
 vspeed = 3;
 
+score_amount = 10;
+
 alarm[0] = random_range(1, 3) * room_speed;
 
 shoting = function()
