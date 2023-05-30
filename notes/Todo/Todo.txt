@@ -78,8 +78,8 @@
 	11.3 Make inherit behaviors from enemy 1 - done
 	11.4 Make him change direction after reaching close(+||-) to middle of the room - 
 		11.4.1 Checking room side - done
-			11.4.1.1 - Checking if it is on right side - done
-			11.4.1.2 - Checking if it is on left side - done
+			11.4.1.1 Checking if it is on right side - done
+			11.4.1.2 Checking if it is on left side - done
 	11.5 Make him change direction after reaching 1/3 of screen - done
 	11.6 Make shure it changes direction only once - done
 	11.7 Making enemy create your shot - done
@@ -97,9 +97,14 @@
 13. Procedural creation of enemies
 	13.1 Make controller object create enemies from time to time - 
 		13.1.1 Make x and y position be randomized - done
+	13.2 Creating different enemies based on game level - done
+	13.3 Create enemies waves - done
+	13.4 Create waves only if you have no enemies in the game - done
+	13.5 Create amount of enemies based on level - done
+	13.6 Preventing enemies from spawning in the same spot - done
 
 14. Creating controller object
-	14.1 Earn score when player destroy an enemy - 
+	14.1 Earn score when player destroy an enemy - done
 	
 15. Creating score system
 	15.1 Init score var - done
@@ -107,3 +112,9 @@
 	15.3 Run earn score method if instance exists - done
 	15.4 Each enemy give a different amount of score - done
 	15.5 Create enemies var that stores the amount of score each enemy give - done
+	
+16. Creating level system
+	16.1 Create var level - done
+	16.2 Show level in screen - done
+	16.3 Leveling up when earn a certain amount of score - done 
+	16.4 Doubling the value whenever i gain level - done

@@ -1,8 +1,14 @@
 /// @description Creating enemies
 
 randomize();
-var _random_x = irandom_range(64, 1888);
-var _random_y = irandom_range(-96, -1504);
-instance_create_layer(_random_x, _random_y, "Enemies", obj_enemy_1);
 
-alarm[0] = room_speed;
+if (!instance_exists(obj_enemy_1))
+{
+	var _repeat_times = level * 10;
+	repeat (_repeat_times)	
+	{
+		create_enemies();	
+	}
+}
+
+alarm[0] = room_speed * 5;
