@@ -118,3 +118,29 @@
 	16.2 Show level in screen - done
 	16.3 Leveling up when earn a certain amount of score - done 
 	16.4 Doubling the value whenever i gain level - done
+	
+17. Make the player shoot 'automatic'
+	17.1 Creating event for shooting - done
+	
+18. Giving levels to player shots
+	18.1 Creating level system - done
+	18.2 Creating debug level system - done
+	18.3 Making the player take the second shot on level 2 - 
+	
+19. Creating second player shot 
+	19.1 Import sprite - done
+	19.2 Create object - done
+	19.3 Inherit from player shot 1 - done
+	19.4 Fixing shot 2 effects - done
+	19.5 Creating 2 shot at time, one on each wing - done
+	19.6 Making shot change direction
+		19.6.1 Making shot gain a direction - done
+		19.6.2 Making shot invert horizontal direction - done
+	19.7 Creating third shot level
+		19.7.1 Creating shot 1 and two shots 2 - done
+	19.8 Creating forth shot level - done
+	19.9 Creating fifth shot level - done
+	
+20. Making player gain power up
+	20.1 Import sprite - 
+	20.2 Create object - 

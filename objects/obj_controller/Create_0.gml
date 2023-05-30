@@ -4,7 +4,7 @@ player_score = 0;
 
 level = 1;
 
-next_level = 10;
+next_level = 100;
 
 ///@method earn_score(score)
 earn_score = function(_quantity)
