@@ -4,6 +4,8 @@ score_amount = 20;
 
 can_move_to_side = true;
 
+drop_chance = 30;
+
 shoting = function() 
 {
 	if (y > 0)

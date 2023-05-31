@@ -4,7 +4,6 @@ shot_delay = room_speed;
 
 shot_level = 1;
 
-///@method shoting()
 shoting = function()
 {
 	var _fire = keyboard_check(vk_space);
@@ -38,7 +37,6 @@ shoting = function()
 	}
 }
 
-///@method shot1()
 shot1 = function()
 {
 	var _shot_y = y - sprite_height / 3;
@@ -46,7 +44,6 @@ shot1 = function()
 	instance_create_layer(x, _shot_y, "Shots", obj_player_shot);
 }
 
-///@method shot2()
 shot2 = function()
 {
 	var _shot_y = y - sprite_height / 3;
@@ -58,14 +55,12 @@ shot2 = function()
 	_shot_2.hspeed = 5;
 }
 
-///@method shot3()
 shot3 = function()
 {
 	shot1();
 	shot2();
 }
 
-///@method shot4()
 shot4 = function()
 {
 	var _shot_y = y - sprite_height / 3;
@@ -83,9 +78,28 @@ shot4 = function()
 	}	
 }
 
-///@method shot5()
 shot5 = function()
 {
 	shot2();
 	shot4();
+}
+
+///@method level_up()
+level_up = function(_chance)
+{
+	if (_chance >= 90 && shot_level < 5)
+	{
+		shot_level++;	
+		show_debug_message($"shot_level={shot_level}");
+	}
+	else if (_chance >= 45 && shot_delay > 20)
+	{
+		shot_delay *= 0.9;
+		show_debug_message($"shot_delay={shot_delay}");
+	}
+	else if (player_speed < 10)
+	{
+		player_speed += 0.5;
+		show_debug_message($"speed={player_speed}");
+	}
 }

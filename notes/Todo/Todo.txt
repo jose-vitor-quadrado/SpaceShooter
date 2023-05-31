@@ -125,7 +125,7 @@
 18. Giving levels to player shots
 	18.1 Creating level system - done
 	18.2 Creating debug level system - done
-	18.3 Making the player take the second shot on level 2 - 
+	18.3 Making the player take the second shot on level 2 - done
 	
 19. Creating second player shot 
 	19.1 Import sprite - done
@@ -141,6 +141,17 @@
 	19.8 Creating forth shot level - done
 	19.9 Creating fifth shot level - done
 	
-20. Making player gain power up
-	20.1 Import sprite - 
-	20.2 Create object - 
+20. Power Up
+	20.1 Import sprite - done
+	20.2 Create object - done
+	20.3 Create chance for each power up - done
+	20.4 Create level up method on player - done
+	20.5 Make power up colides with player and gave power up - done
+	20.6 Destroy item after colides with player - done
+	20.7 Create shot impact when destroyed - done
+	20.8 Making enemies have a chance to drop power ups - done
+	20.9 Making power up move - done
+	20.10 Giving more effect 
+		20.10.1 Choosing color based on each type of power ups - done
+	20.11 Destroy if is outside room - done
+	20.12 Making the power up disappear - done

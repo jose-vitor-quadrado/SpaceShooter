@@ -10,22 +10,22 @@ x += (_right - _left) * player_speed;
 
 shoting();
 
-if (keyboard_check_pressed(vk_up) && shot_level < 5)
-{
-	shot_level++;
-}
+//if (keyboard_check_pressed(vk_up) && shot_level < 5)
+//{
+//	shot_level++;
+//}
 
-if (keyboard_check_pressed(vk_down) && shot_level > 1)
-{
-	shot_level--;	
-}
+//if (keyboard_check_pressed(vk_down) && shot_level > 1)
+//{
+//	shot_level--;	
+//}
 
-if (keyboard_check_pressed(vk_left) && shot_delay > 20)
-{
-	shot_delay *= 0.9;
-}
+//if (keyboard_check_pressed(vk_left) && shot_delay > 20)
+//{
+//	shot_delay *= 0.9;
+//}
 
-if (keyboard_check_pressed(vk_right))
-{
-	shot_delay *= 1.1;
-}
+//if (keyboard_check_pressed(vk_right))
+//{
+//	shot_delay *= 1.1;
+//}
