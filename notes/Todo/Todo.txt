@@ -155,3 +155,35 @@
 		20.10.1 Choosing color based on each type of power ups - done
 	20.11 Destroy if is outside room - done
 	20.12 Making the power up disappear - done
+	
+21. Player Shield
+	21.1 Import sprite - done
+	21.2 Create object - done
+	21.3 Making player create shild when pressed key "E" - done
+	21.4 Create shield layer and create it there - done
+	21.5 Making shield stay in player position - done
+		21.5.1 Fixing movement delay - done
+	21.6 Destroying shots and enemies -  done
+	21.7 Making the shield bigger - done
+	21.8 Animate shield
+		21.8.1 Stop animation in the end - done
+		21.8.2 After a while the image returns - 
+			21.8.2.1 At the end of animation activate an alarm in 2 seconds - done
+			21.8.2.2 When alarm is called go back 1 frame - done
+			21.8.2.3 If reach image index 0 destroy - done
+	21.9 Improving shield effect
+		21.9.1 Giving a transparency to the shield - done
+		21.9.2 Giving blend mode - done
+		
+22. General adjustments
+	22.1 Fixing collision masks - done
+	22.2 Creating collision between player and enemies - done
+
+23. Making player die
+	23.1 Giving life for player - done
+	23.2 Creating method lose life - done
+	23.3 Making player die if life <= 0 - done
+	23.4 Making player create explosion - done
+	23.5 Showing player life - done
+	23.6 Making player lose life when collides with an enemy - done
+	23.7 Creating game over screen when player lose - 

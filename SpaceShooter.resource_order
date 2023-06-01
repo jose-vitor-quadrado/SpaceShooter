@@ -34,6 +34,7 @@
     {"name":"obj_enemy_1_shot","order":1,"path":"objects/obj_enemy_1_shot/obj_enemy_1_shot.yy",},
     {"name":"spr_enemy_2","order":2,"path":"sprites/spr_enemy_2/spr_enemy_2.yy",},
     {"name":"spr_enemy_2_shot","order":3,"path":"sprites/spr_enemy_2_shot/spr_enemy_2_shot.yy",},
+    {"name":"spr_player_shield","order":3,"path":"sprites/spr_player_shield/spr_player_shield.yy",},
     {"name":"spr_power_up","order":7,"path":"sprites/spr_power_up/spr_power_up.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
     {"name":"obj_enemy_impact","order":1,"path":"objects/obj_enemy_impact/obj_enemy_impact.yy",},
@@ -43,5 +44,6 @@
     {"name":"spr_enemy_1_shot","order":1,"path":"sprites/spr_enemy_1_shot/spr_enemy_1_shot.yy",},
     {"name":"obj_controller","order":7,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_shot_effect_2","order":6,"path":"sprites/spr_shot_effect_2/spr_shot_effect_2.yy",},
+    {"name":"obj_player_shield","order":3,"path":"objects/obj_player_shield/obj_player_shield.yy",},
   ],
 }

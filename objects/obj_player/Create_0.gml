@@ -1,10 +1,12 @@
+life = 3;
+
 player_speed = 5;
 
 shot_delay = room_speed;
 
 shot_level = 1;
 
-shoting = function()
+ shoting = function()
 {
 	var _fire = keyboard_check(vk_space);
 	
@@ -102,4 +104,17 @@ level_up = function(_chance)
 		player_speed += 0.5;
 		show_debug_message($"speed={player_speed}");
 	}
+}
+
+///@method lose_life()
+lose_life = function()
+{
+	if (life > 0)
+	{
+		life--;
+		
+		return;
+	}
+	
+	instance_destroy();
 }
