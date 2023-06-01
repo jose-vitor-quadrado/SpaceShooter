@@ -52,6 +52,8 @@
     {"id":{"name":"spr_enemy_2","path":"sprites/spr_enemy_2/spr_enemy_2.yy",},},
     {"id":{"name":"spr_enemy_2_shot","path":"sprites/spr_enemy_2_shot/spr_enemy_2_shot.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
+    {"id":{"name":"sq_gameover","path":"sequences/sq_gameover/sq_gameover.yy",},},
     {"id":{"name":"spr_player_shield","path":"sprites/spr_player_shield/spr_player_shield.yy",},},
     {"id":{"name":"Todo","path":"notes/Todo/Todo.yy",},},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},},

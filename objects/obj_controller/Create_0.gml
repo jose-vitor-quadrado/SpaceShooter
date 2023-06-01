@@ -6,6 +6,8 @@ level = 1;
 
 next_level = 100;
 
+gameover_sequence = noone;
+
 ///@method earn_score(score)
 earn_score = function(_quantity)
 {

@@ -92,17 +92,17 @@ level_up = function(_chance)
 	if (_chance >= 90 && shot_level < 5)
 	{
 		shot_level++;	
-		show_debug_message($"shot_level={shot_level}");
+		//show_debug_message($"shot_level={shot_level}");
 	}
 	else if (_chance >= 45 && shot_delay > 20)
 	{
 		shot_delay *= 0.9;
-		show_debug_message($"shot_delay={shot_delay}");
+		//show_debug_message($"shot_delay={shot_delay}");
 	}
 	else if (player_speed < 10)
 	{
 		player_speed += 0.5;
-		show_debug_message($"speed={player_speed}");
+		//show_debug_message($"speed={player_speed}");
 	}
 }
 

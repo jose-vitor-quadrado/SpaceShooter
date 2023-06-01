@@ -186,4 +186,11 @@
 	23.4 Making player create explosion - done
 	23.5 Showing player life - done
 	23.6 Making player lose life when collides with an enemy - done
-	23.7 Creating game over screen when player lose - 
+	23.7 Creating game over screen when player lose
+		23.7.1 Creating game over sequence - done
+		23.7.2 Instance sequence in room
+			23.7.2.1 Checking if player exists on object controller - done
+			23.7.2.2 If player not exists create game over sequence - done
+		23.7.3 Restart game when press enter - done
+		
+24. Screenshake!

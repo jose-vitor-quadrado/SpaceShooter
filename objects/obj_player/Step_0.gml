@@ -16,5 +16,3 @@ if (_shield)
 }
 
 shoting();
-
-show_debug_message(life);
