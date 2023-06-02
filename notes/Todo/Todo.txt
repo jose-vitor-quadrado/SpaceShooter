@@ -174,10 +174,16 @@
 	21.9 Improving shield effect
 		21.9.1 Giving a transparency to the shield - done
 		21.9.2 Giving blend mode - done
+	21.10 Limiting the amount of shields
+		21.10.1 Creating var quantity of shields - done
+		21.10.2 Create shield if quantity of shields > 0 - done
+	21.11 Show remaining shields in screen - done
 		
 22. General adjustments
 	22.1 Fixing collision masks - done
 	22.2 Creating collision between player and enemies - done
+	22.3 Improving power up transparency - done
+	22.4 Improving enemies dispersion according to level - done
 
 23. Making player die
 	23.1 Giving life for player - done
@@ -194,3 +200,20 @@
 		23.7.3 Restart game when press enter - done
 		
 24. Screenshake!
+	24.1 Create an object to do screenshake - done
+	24.2 Making the screen shake - done
+	24.3 Lowering the shake - done
+	24.4 Destroying itself after a while - 
+	24.5 Ensuring thar when you destroy the position of the viewport returns to normal - done
+	24.6 Create screenshake when an enemy was killed - done
+	24.7 Create a method that anyone can create and change the intensity of the screenshake - done
+	24.8 Creating screenshake for player - done
+	
+25. General adjustments
+	25.1 Randomizing game - done
+	25.2 Preventing player for exiting screen - done
+	25.3 Making enemies drop items after they reach a specific position in screen - done
+	25.4 Improving levels system - done
+	25.5 Gain score in power ups if is level max - done
+	
+26. Boss

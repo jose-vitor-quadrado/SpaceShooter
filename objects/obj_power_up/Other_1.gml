@@ -1,1 +1,1 @@
-direction = -direction;
+direction += 180;

@@ -1,5 +1,7 @@
 life = 3;
 
+shields = 3;
+
 player_speed = 5;
 
 shot_delay = room_speed;
@@ -89,20 +91,38 @@ shot5 = function()
 ///@method level_up()
 level_up = function(_chance)
 {
-	if (_chance >= 90 && shot_level < 5)
+	if (_chance >= 90)
 	{
-		shot_level++;	
-		//show_debug_message($"shot_level={shot_level}");
+		if (shot_level < 5)
+		{
+			shot_level++;
+		}
+		else
+		{
+			earning_score(100);
+		}
 	}
-	else if (_chance >= 45 && shot_delay > 20)
+	else if (_chance >= 45)
 	{
-		shot_delay *= 0.9;
-		//show_debug_message($"shot_delay={shot_delay}");
+		if (shot_delay > 15)
+		{
+			shot_delay *= 0.9;
+		}
+		else
+		{
+			earning_score(10);
+		}
 	}
-	else if (player_speed < 10)
+	else 
 	{
-		player_speed += 0.5;
-		//show_debug_message($"speed={player_speed}");
+		if (player_speed < 10)
+		{
+			player_speed += 0.5;
+		}
+		else 
+		{
+			earning_score(10);
+		}
 	}
 }
 
@@ -113,8 +133,12 @@ lose_life = function()
 	{
 		life--;
 		
+		screenshake(5);
+		
 		return;
 	}
 	
 	instance_destroy();
+	
+	screenshake(20);
 }

@@ -24,7 +24,7 @@ drop_item = function(_drop_chance)
 {
 	var _value = random(100)
 	
-	if (_value < _drop_chance)
+	if (_value < _drop_chance && x > 96 && y > 96)
 	{
 		instance_create_layer(x, y, "Shots", obj_power_up);	
 	}
