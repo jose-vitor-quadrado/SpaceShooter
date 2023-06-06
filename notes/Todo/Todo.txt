@@ -184,6 +184,10 @@
 	22.2 Creating collision between player and enemies - done
 	22.3 Improving power up transparency - done
 	22.4 Improving enemies dispersion according to level - done
+	22.5 Preventing the player from creating more tha none shield at a time - done
+		22.5.1 Making player create shield if my_shield is noone - done
+	22.6 Preventing the player from taking damage when he is using shield - done
+		22.6.1 Making shield tells that his target is noone - done
 
 23. Making player die
 	23.1 Giving life for player - done
@@ -217,3 +221,61 @@
 	25.5 Gain score in power ups if is level max - done
 	
 26. Boss
+	26.1 Import sprite - done
+	26.2 Create object - done
+	26.3 Defining boss states - 
+	26.4 Creating first boss state(Create second shot when stopped) - done
+		26.4.1 Making boss create shot 2 in the middle cannon - done
+		26.4.2 Creating interval between shots - done
+		26.4.3 Creating state 1 method - done
+		26.4.4 Making change state after a while - done
+	26.5 Creating second boss state
+		26.5.1 Making boss create 2 shots 1 in side cannons - done
+		26.5.2 Creating interval between shots - done
+		26.5.3 Making boss move vertically - done
+		26.5.4 Creating method - done
+	26.6 Creating third boss state
+		26.6.1 Creating shot 1 on middle cannon 2 times the delay - done
+		26.6.2 Creating shot 2 on side cannons - done
+		26.6.3 Creating each shots in different time - done
+		26.6.4 Creating method - done
+	26.7 Creating boss life
+		26.7.1 Starting life var - done
+		26.7.2 Showing boss life - done
+		26.7.3 Making the boss get shot - done
+	26.8 Creating forth state
+		26.8.1 Import sprite - done
+		26.8.2 Making boss change sprite - done
+		26.8.3 Making the boss don't take damage in state 4 - done
+		26.8.4 Making the boss has the original sprite in other states - done
+		26.8.5 Creating object minion - done
+		26.8.6 Creating minion shot - done
+		26.8.7 Making minion shot - done
+		26.8.8 Making minion shot go to boss direction - done
+		26.8.9 Making minion shot heals 5 of boss life - done
+		26.8.10 Making minion start transparent then turns visible - done
+		26.8.11 Making minion take shots - done
+		26.8.12 Giving 10 health to minions - done
+		26.8.13 Making minion die - done
+		26.8.14 Creating explosion on die - done
+		26.8.15 Improving player feedback 
+			26.8.15.1 Making transform according to life - done
+			26.8.15.2 Making increase value up - done
+		26.8.16 Change minion effects - done
+			26.8.16.1 Making scale bigger and smaller - done
+		26.8.17 Making boss create minions when is in state 4
+			26.8.17.1 Creating minions on correct angle - done
+			26.8.17.2 Making minion checks if has created in same spot as other minion change his y in -128 - done
+			26.8.17.3 Making boss create just one time minions on state 4 - done
+			26.8.17.4 Making the boss create minions after state 4 - done
+			26.8.17.5 Making the boss reach state 4 if current life is lower or equal than half of max life - done
+			26.8.17.6 Making minions shots follow boss on step - done
+		26.8.18 Create state 4 method - done
+	26.9 Create a method to change state - done
+		
+	Boss phases
+	Invulnerable phase with life recovery
+	(Phase create agressive minions)
+
+27. Boss arrive animation
+	27.1 Import sprite - 

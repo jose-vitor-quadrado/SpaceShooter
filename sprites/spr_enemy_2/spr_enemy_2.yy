@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82b1f1d4-c429-4355-b966-2335b0418217","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Enemies",
     "path": "folders/Sprites/Enemies.yy",
@@ -66,7 +66,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 55,
-    "yorigin": 76,
+    "yorigin": 91,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

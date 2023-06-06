@@ -1,0 +1,1 @@
+if (instance_exists(target)) target.my_shield = noone;

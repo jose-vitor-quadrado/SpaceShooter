@@ -4,6 +4,8 @@ shields = 3;
 
 player_speed = 5;
 
+my_shield = noone;
+
 shot_delay = room_speed;
 
 shot_level = 1;
@@ -129,16 +131,34 @@ level_up = function(_chance)
 ///@method lose_life()
 lose_life = function()
 {
-	if (life > 0)
+	if (!my_shield)
 	{
-		life--;
+		if (life > 0)
+		{
+			life--;
 		
-		screenshake(5);
+			screenshake(5);
 		
-		return;
+			return;
+		}
 	}
-	
 	instance_destroy();
 	
 	screenshake(20);
+}
+
+create_shield = function()
+{
+	var _shield = keyboard_check_pressed(ord("E"));
+	
+	if (_shield && shields > 0 && !my_shield)
+	{
+		var _player_shield = instance_create_layer(x, y, "Shield", obj_player_shield);
+	
+		_player_shield.target = id;
+	
+		my_shield = _shield;
+	
+		shields--;
+	}
 }
