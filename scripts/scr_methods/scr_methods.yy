@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_screenshake",
+  "name": "scr_methods",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

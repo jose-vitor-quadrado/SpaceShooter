@@ -278,4 +278,9 @@
 	(Phase create agressive minions)
 
 27. Boss arrive animation
-	27.1 Import sprite - 
+	27.1 Import sprite - done
+	27.2 Creating animation - done
+	27.3 Destroying sequence when animation ends - done
+	27.4 Creating the boss after sequence is destroyed - done
+	
+28. Boss death animation

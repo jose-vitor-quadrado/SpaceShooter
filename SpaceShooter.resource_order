@@ -44,6 +44,7 @@
     {"name":"obj_enemy_impact","order":1,"path":"objects/obj_enemy_impact/obj_enemy_impact.yy",},
     {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
     {"name":"obj_enemy_2_shot","order":3,"path":"objects/obj_enemy_2_shot/obj_enemy_2_shot.yy",},
+    {"name":"sq_boss_arrive","order":1,"path":"sequences/sq_boss_arrive/sq_boss_arrive.yy",},
     {"name":"obj_power_up","order":2,"path":"objects/obj_power_up/obj_power_up.yy",},
     {"name":"spr_background_extra_2","order":4,"path":"sprites/spr_background_extra_2/spr_background_extra_2.yy",},
     {"name":"obj_screenshake","order":3,"path":"objects/obj_screenshake/obj_screenshake.yy",},
