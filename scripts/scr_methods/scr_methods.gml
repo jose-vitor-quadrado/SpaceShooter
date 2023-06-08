@@ -18,3 +18,18 @@ function destroy_sequence()
 	layer_sequence_destroy(_elements[0]);	
 	instance_create_layer(room_width / 2, 256, "Boss", obj_boss); 
 }
+
+function create_sequence()
+{
+	if (instance_exists(obj_player))
+	{
+		layer_sequence_create("Sequences", obj_player.x, obj_player.y, sq_player_level_end);
+		
+		instance_destroy(obj_player, false);
+		
+		if (instance_exists(obj_controller))
+		{
+			obj_controller.player_win = true;
+		}
+	}
+}

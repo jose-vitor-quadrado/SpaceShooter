@@ -6,7 +6,7 @@
 randomize();
 
 max_life = 1500;
-current_life = max_life;
+current_life = 1;
 
 current_state = choose("state 1", "state 2", "state 3");
 

@@ -277,10 +277,33 @@
 	Invulnerable phase with life recovery
 	(Phase create agressive minions)
 
-27. Boss arrive animation
+27. Boss arrive animation (960x512)
 	27.1 Import sprite - done
 	27.2 Creating animation - done
 	27.3 Destroying sequence when animation ends - done
 	27.4 Creating the boss after sequence is destroyed - done
 	
 28. Boss death animation
+	28.1 Animation time to 10s - done
+	28.2 Creating a bunch of explosions on boss - done
+	28.3 Making boss falling from screen - done
+	28.4 Making boss create death animation when defeated - done
+	28.5 Creating animation on correct position - done
+	
+29. Making controller create boss when reach level 10
+	29.1 Creating enemies if is not in level 10 - done
+	29.2 Creating boss if is in level 10 - done
+	29.3 Ensure that will create boss just one time - done
+	
+30. Create player level ending animation 
+	30.1 Create animation - done
+	30.2 When the player killed the boss create player animation in his position 
+		30.2.1 Create a method for player sequence - done
+		30.2.2 Making execute function when boss ends animaiton - done
+	30.3 Destroy player and ensure controller object don't activate game over
+		30.3.1 Preventing the player from executing his destroy event - done
+		30.3.2 Creating controll var for preventing game over - done
+
+31. Create home room
+
+32. Create score room 

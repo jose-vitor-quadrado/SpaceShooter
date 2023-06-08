@@ -6,9 +6,13 @@ player_score = 0;
 
 level = 1;
 
-next_level = 100;
+next_level = 1;
 
 gameover_sequence = noone;
+
+create_boss = true;
+
+player_win = false;
 
 ///@method earn_score(score)
 earn_score = function(_quantity)

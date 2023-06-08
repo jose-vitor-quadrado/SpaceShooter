@@ -6,7 +6,7 @@ if (current_state != "state 4")
 	}
 	else 
 	{
-		instance_destroy();	
+		instance_destroy();
 	}
 
 	instance_destroy(other);	
