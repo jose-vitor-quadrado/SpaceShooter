@@ -2,7 +2,7 @@ randomize();
 
 alarm[0] = room_speed;
 
-player_score = 0;
+player_score = 1000;
 
 level = 1;
 

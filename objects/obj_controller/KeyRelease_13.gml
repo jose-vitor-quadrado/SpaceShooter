@@ -1,4 +1,5 @@
 if (gameover_sequence)
 {
-	room_restart();
+	var _transition = instance_create_layer(0, 0, "Player", obj_transition);
+	_transition.destination = rm_home;
 }

@@ -5,3 +5,5 @@ earning_score(score_amount);
 drop_item(drop_chance);
 
 screenshake(10);
+
+global.enemies_killed++;
