@@ -2,11 +2,11 @@ randomize();
 
 alarm[0] = room_speed;
 
-player_score = 1000;
+player_score = 0;
 
 level = 1;
 
-next_level = 1;
+next_level = 100;
 
 gameover_sequence = noone;
 

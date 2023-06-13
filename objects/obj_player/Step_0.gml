@@ -13,10 +13,3 @@ y = clamp(y, 64, room_height - 64);
 shoting();
 
 create_shield();
-
-if (keyboard_check_pressed(vk_up))
-{
-	if (shot_level < 5) shot_level++;
-	if (shot_delay > 15) shot_delay *= 0.9;	
-	if (player_speed < 10) player_speed += 0.5;
-}

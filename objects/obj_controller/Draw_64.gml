@@ -1,5 +1,3 @@
-var _gui_width = display_get_gui_width();
-
-draw_text(_gui_width - 110, 20, $"score: {player_score}");
-
-draw_text(_gui_width - 100, 40, $"level: {level}");
+draw_set_alpha(0.25);
+draw_text(20, 120, $"Score: {player_score}");
+draw_set_alpha(1);

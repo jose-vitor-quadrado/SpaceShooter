@@ -344,3 +344,27 @@
 	33.9 Creating button to come back to home room - done
 	33.10 Creating font for score screen - done
 	33.11 Making it start with 0 points and grow to the maximum points - done
+	
+34. General Improvements 
+	34.1 Ensuring that the game is random - done
+	34.2 Changing the game name - done
+	
+35. Creating game sounds
+	35.1 Import game sounds - done
+	35.2 Creating explosion sound when explosion object is created - done
+	35.3 Creating shot sound when player shot - done
+	35.4 Creating shot sound when enemy shot - done
+	35.5 Creating shot sound when boss shot - done
+	35.6 Creating shield sound when created - done
+	35.7 Creating shield sound when destroyed - done
+	35.8 Creating lose sound when game over animation is triggered - done
+	35.9 When a shot reach player shield create sound two tone - done
+	35.10 Playing game song when level initiates - done
+		35.10.1 Stop all sounds when leaves the level room - done
+	35.11 Playing boss theme when boss fight starts - done
+		35.11.1 Stop the level theme to play the boss theme - done
+		35.11.2 Play the theme song - done
+		
+36. General fixes
+	36.1 Removing all debugs - done
+	36.2 Testing the game - done

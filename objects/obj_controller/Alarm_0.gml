@@ -16,7 +16,8 @@ if (!instance_exists(obj_enemy_1))
 	else if (create_boss)
 	{
 		layer_sequence_create("Boss_Arrive", room_width / 2, 512, sq_boss_arrive);
-		create_boss = false;
+		create_boss = false;	
+		audio_stop_all();
 	}
 }
 

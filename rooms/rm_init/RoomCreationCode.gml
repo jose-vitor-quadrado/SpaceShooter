@@ -1,3 +1,5 @@
+randomize();
+
 global.highest_score = 0;
 
 global.total_deaths = 0;

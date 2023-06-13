@@ -4,7 +4,7 @@ score_amount = 10;
 
 alarm[0] = random_range(1, 3) * room_speed;
 
-drop_chance = 20;
+drop_chance = 25;
 
 if (place_meeting(x, y, obj_enemy_1))
 {
@@ -16,6 +16,8 @@ shoting = function()
 	if (y > 0)
 	{
 		instance_create_layer(x - 3, y + sprite_height / 3, "Shots", obj_enemy_1_shot);
+		
+		audio_play_sound(sfx_laser1, 2, false);
 	}	
 }
 

@@ -14,10 +14,11 @@ shot_level = 1;
 {
 	var _fire = keyboard_check(vk_space);
 	
-	
 	if (_fire && alarm[0] == -1)
 	{
 		alarm[0] = shot_delay;
+		
+		audio_play_sound(sfx_laser2, 1, false);
 		
 		switch (shot_level)
 		{

@@ -5,8 +5,10 @@
 
 randomize();
 
+audio_play_sound(snd_aggressor, 0, true);
+
 max_life = 1500;
-current_life = 1;
+current_life = max_life;
 
 current_state = choose("state 1", "state 2", "state 3");
 
@@ -25,6 +27,8 @@ create_minions = true;
 shot_1 = function()
 {
 	instance_create_layer(x, y + 80, "Shots", obj_enemy_2_shot);
+	
+	audio_play_sound(sfx_laser1, 1, false);
 }
 
 shot_2 = function()
@@ -32,6 +36,8 @@ shot_2 = function()
 	var _posx = 160;
 	instance_create_layer(x - _posx, y + 10, "Shots", obj_enemy_1_shot);		
 	instance_create_layer(x + _posx, y + 10, "Shots", obj_enemy_1_shot);
+	
+	audio_play_sound(sfx_laser1, 1, false);
 }
 
 movement = function()
